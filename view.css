@@ -1,0 +1,64 @@
+body div {
+  float: left;
+}
+#users, #message {
+  border-style: solid;
+  border-width: thin;
+  border-color: #0000ff;
+}
+body {
+	background-color: #a0caee;
+	text-align: center;
+}
+div#users {
+  width:23vw;
+  height:90vh;
+  background-color: #759fcf;
+	border-style: solid;
+}
+#users2 {
+	width: 23vw;
+}
+div#message {
+  width:74vw;
+  height:90vh;
+  background-color: #5dc4fb;
+	border-style: solid;
+	overflow: scroll;
+}
+div#message2 {
+	width: 68vw;
+	margin: 3vw;
+}
+#chat p span{
+	border-radius: 5px;
+	padding: 3px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 2px;
+}
+.right {
+	text-align: right;
+}
+.right span {
+	background-color: #caebfb;
+	border-color: #dafbfb;
+}
+.left {
+	text-align: left;
+}
+.left span {
+	background-color: #9abbcb;
+	border-color: #aacbcb;
+}
+#text {
+	width: 60vw;
+}
+#message3 {
+	position: relative;
+	padding-bottom: 2vh;
+}
+#chattitle {
+	text-transform: capitalize;
+	font-weight: 700;
+}

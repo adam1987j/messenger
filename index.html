@@ -1,0 +1,33 @@
+<html>
+  <head>
+	  <script src="script.js"></script>
+	  <link rel="stylesheet" href="view.css" />
+  </head>
+  <body onload="reloadUser();">
+	  <p>Welcome to my messenger application:</br>
+    Logged in as: <select id="selectUser" onchange="reloadUser();">
+	    <option value='adam'>Adam</option>
+	    <option value='jan'>Jan</option>
+	    <option value='ben'>Ben</option>
+	    <option value='marie'>Marie</option>
+    </select></p>
+
+    <div id="users">
+      <h1>
+        friends
+      </h1>
+      <div id=users2></div>
+    </div>
+    <div id=message>
+	    <div id=message2>
+	      <h1 id="h1chat">
+	        chat
+	      </h1>
+	      <p id=chat></p>
+	      <div id=message3>
+		      <input type="text" id=text />
+		      <button id=send onclick="sendMsg(document.getElementById('selectUser').options[document.getElementById('selectUser').selectedIndex].value, document.getElementById('chat').value, document.getElementById('text').value); document.getElementById('text').value = '';">Send</button>
+	      </div>
+	    </div>
+    </div>  </body>
+</html>
