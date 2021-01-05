@@ -1,8 +1,4 @@
-var filesize = 0;
 var interval;
-function setfilesize(x) {
-	filesize = x;
-}
 function counting() {
 		var xhttp = new XMLHttpRequest();
 	  xhttp.onreadystatechange = function() {
